@@ -1,0 +1,878 @@
+/* ================Google fonts =====================*/
+/* ================Google fonts =====================*/
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* ================Google fonts end  =====================*/
+/* ================Google fonts end  =====================*/
+
+
+
+/* ================Common css style  start  =====================*/
+/* ================Common css style  start  =====================*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container {
+  padding: 0px 60px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/*    body buttons styles */
+button {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  border: none;
+  opacity: 0.8;
+}
+
+button:hover {
+  transform: translate(0, -5px);
+  -webkit-transform: translate(0, -5px);
+  -moz-transform: translate(0, -5px);
+  -ms-transform: translate(0, -5px);
+  -o-transform: translate(0, -5px);
+  opacity: 1;
+}
+
+/*    body buttons styles */
+
+
+p {
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.prm_btn {
+  cursor: pointer;
+  padding: 20px 40px;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.prm_btn a {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.fa-tiktok {
+  color: #0B0223;
+}
+
+.bg_akashi {
+  background: #4EC5F7 !important;
+}
+
+/* ================sec_title css style  start  =====================*/
+.sec_title * {
+  margin-top: 20px;
+}
+
+
+.sec_title .sec_main_title {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.sec_title .sec_main_title span {
+  background: linear-gradient(180deg, #0B0223 0%, #0B0223 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* ================sec_title css style  end  =====================*/
+
+/* ================play_btn css style  start  =====================*/
+.play_btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.play_btn a {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* ================play_btn css style  end  =====================*/
+
+.btn_radi_10 {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.btn_radi_5 {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.btn_radius {
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+
+
+/* ================Common css style  end  =====================*/
+/* ================Common css style  end  =====================*/
+
+
+/* ================header css style  start  =====================*/
+/* ================header css style  start  =====================*/
+
+.header {
+  padding: 30px 0px;
+}
+/* ================navbar css style  start  =====================*/
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .manu_container {
+  display: flex;
+  align-items: center;
+}
+
+.header .manus {
+  display: flex;
+}
+
+/* ================manus css style  start  =====================*/
+.header .manus .manu_item .manu_link {
+  text-transform: capitalize;
+  margin-left: 15px;
+  color: #3C354F;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* ================socials_links css style  start  =====================*/
+.header .socials_links {
+  margin-left: 15px;
+  background: rgba(218, 217, 219, 0.6431372549);
+  padding: 10px 10px;
+  display: flex;
+}
+
+.header .socials_links .fa-youtube {
+  color: red;
+}
+
+.header .socials_links a {
+  text-transform: capitalize;
+  margin: 0px 10px;
+  color: #3C354F;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* ================navbrend css style  start  =====================*/
+.header .navbrend {
+  color: #0B0223;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.header .navbrend span {
+  margin-left: 10px;
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ================header css style  end  =====================*/
+/* ================header css style  end  =====================*/
+
+
+/* ================banner_container css style  start  =====================*/
+/* ================banner_container css style  start  =====================*/
+.banner_container {
+  margin: 50px 0px;
+}
+
+.banner_container .banner_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* ================banner_container banner_content css style  start  =====================*/
+
+.banner_container .banner_content 
+.banner_desc {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner_container .banner_content 
+.banner_desc * {
+  margin-top: 15px;
+}
+
+.banner_container .banner_content 
+.banner_desc .ban_sub {
+  color: #0B0223;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* ================banner_container title  css style  start  =====================*/
+.banner_container .banner_content 
+.banner_desc .ban_main {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.banner_container .banner_content
+ .banner_desc .fe_item {
+  margin-left: 10px;
+}
+
+.banner_container .banner_content 
+.banner_desc .fe_item .item {
+  color: #534C64;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 5px;
+}
+
+.banner_container .banner_content
+ .banner_desc .fe_item .item i {
+  color: #FF42A5;
+}
+
+/* ================banner_container   css style  end  =====================*/
+/* ================banner_container   css style  end  =====================*/
+
+
+
+
+
+/* ================team_container   css style  start  =====================*/
+/* ================team_container   css style  start  =====================*/
+
+.team_container {
+  margin: 50px 0px;
+}
+
+
+.team_container .team_content {
+  display: grid;
+  grid-template-columns: 1.8fr 1.2fr;
+}
+
+/* ================team_container  team_img  css style  start  =====================*/
+.team_container .team_content .team_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* ================team_container  team_img  css style  end  =====================*/
+
+
+.team_container .team_content .team_desc {
+  max-width: 520px;
+  text-align: right;
+}
+
+.team_container .team_content .team_desc * {
+  margin-top: 10px;
+}
+
+.team_container .team_content .comment span {
+  color: #534C64;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.team_container .team_content .comment h1 {
+  color: #534C64;
+  line-height: 45px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+
+/* ================team_container   css style  end  =====================*/
+/* ================team_container   css style  end  =====================*/
+
+
+
+/* ================games_container   css style  start  =====================*/
+/* ================games_container   css style  start  =====================*/
+.games_container {
+  margin: 100px 0px;
+}
+
+.games_container .games_content {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+}
+
+/* ================game_card   css style  start  =====================*/
+
+.games_container .game_card {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.games_container .game_card .card_desc * {
+  margin-top: 10px;
+}
+
+.games_container
+ .game_card .game_img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.games_container 
+.game_card .game_img img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.games_container .game_card
+ .over_content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.games_container .game_card 
+.over_content .content {
+  box-sizing: border-box;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.6705882353);
+  height: 100%;
+  width: 100%;
+  transform: scale(5);
+  -webkit-transform: scale(5);
+  -moz-transform: scale(5);
+  -ms-transform: scale(5);
+  -o-transform: scale(5);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.games_container .game_card 
+.over_content .content * {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.games_container .game_card
+ .over_content .content .link {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FF42A5;
+}
+
+.games_container .game_card
+ .over_content .content .icon {
+  color: white;
+  font-size: 50px;
+}
+
+.games_container .game_card 
+.game_img:hover .content {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+} 
+/* ================game_card   css style  end  =====================*/
+
+/* ================games_container   css style  end  =====================*/
+/* ================games_container   css style  end  =====================*/
+
+
+
+/* ================ play_now_container   css style  start  =====================*/
+/* ================ play_now_container   css style  start  =====================*/
+
+
+.play_now_container {
+  padding: 50px 0px;
+}
+
+.play_now_container
+ .play_con_items {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.play_now_container 
+.paly_now_desc {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: end;
+}
+
+.play_now_container 
+.paly_now_desc .sec_title {
+  max-width: 400px;
+}
+
+.play_now_container .play_nest {
+  display: flex;
+  justify-content: end;
+}
+
+.play_now_container 
+.play_nest .play_images {
+  width: 75%;
+  position: relative;
+}
+
+.play_now_container
+ .play_nest .play_images 
+ .play_img_main {
+  width: 100%;
+}
+
+.play_now_container
+ .play_nest .play_images 
+ .over_element {
+  width: 100%;
+  height: 100%;
+  top: 15%;
+  right: 25%;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+
+.play_now_container .play_nest 
+.play_images .over_element 
+.overflow_img {
+  width: 50%;
+  height: 55%;
+}
+
+
+/* ================ play_now_container_two   css style  start  =====================*/
+/* ================ play_now_container_two   css style  start   =====================*/
+
+
+.play_now_container_two {
+  margin: 100px 0px;
+  padding: 50px 0px;
+}
+
+.play_now_container_two
+ .play_con_items {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.play_now_container_two
+ .paly_now_desc {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: start;
+}
+
+.play_now_container_two
+ .paly_now_desc .sec_title {
+  max-width: 400px;
+}
+
+.play_now_container_two .play_nest {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.play_now_container_two 
+.play_nest .play_images {
+  width: 75%;
+  position: relative;
+}
+
+.play_now_container_two 
+.play_nest .play_images
+ .play_img_main {
+  width: 100%;
+}
+
+.play_now_container_two
+ .play_nest .play_images 
+ .over_element {
+  width: 100%;
+  height: 100%;
+  top: 15%;
+  right: -25%;
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.play_now_container_two .play_nest 
+.play_images .over_element 
+.overflow_img {
+  width: 50%;
+  height: 55%;
+}
+
+
+
+/* ================ play_now_container   css style  end  =====================*/
+/* ================ play_now_container   css style  end   =====================*/
+
+
+/* ================ careers_container   css style  start  =====================*/
+/* ================ careers_container   css style  satrt   =====================*/
+.careers_container {
+  max-width: 100%;
+  background-color: #FF42A5;
+}
+
+.careers_container .career_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.careers_container .career_desc {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.careers_container .career_desc .desc_con {
+  max-width: 720px;
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+
+.careers_container .crer_main_title {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.careers_container .sec_title p {
+  font-weight: 400;
+}
+
+.careers_container .sec_title * {
+  margin-top: 5px;
+}
+
+.careers_container .sec_desc {
+  color: white;
+}
+
+.careers_container .carear_ban_img img {
+  height: 100%;
+}
+
+.careers_container .listed_feture {
+  margin-top: 30px;
+}
+
+.careers_container .listed_feture .items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.careers_container .listed_feture .items h4 {
+  text-transform: capitalize;
+  color: #FFF;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+
+/* ================ careers_container   css style  end  =====================*/
+/* ================ careers_container   css style  end   =====================*/
+
+
+/* ================ butonns_area   css style  start  =====================*/
+/* ================ butonns_area   css style  start   =====================*/
+
+
+
+.butonns_area {
+  margin: 100px 0px;
+}
+
+.butonns_area .buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.butonns_area .buttons .btn_item {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.butonns_area .buttons .bn_ar_item {
+  border: 1px solid rgba(255, 66, 164, 0);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  padding: 10px;
+}
+
+.butonns_area .buttons .bn_ar_item * {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.butonns_area .buttons .bn_ar_item a {
+  color: #0B0223;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.butonns_area .buttons .bn_ar_item a img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.butonns_area .buttons .bn_ar_item:hover {
+  border: 1px solid #FF42A5;
+}
+
+.butonns_area .buttons .bn_ar_item:hover a {
+  color: #FF42A5;
+}
+
+
+/* ================ butonns_area   css style  end  =====================*/
+/* ================ butonns_area   css style  end   =====================*/
+
+
+
+/* ================ footer   css style  start  =====================*/
+/* ================ footer   css style  start   =====================*/
+
+.footer {
+  background: #0B0223;
+  margin-top: 100px;
+  padding: 100px 0px;
+}
+
+.footer a {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.footer a:hover {
+  color: #FF42A5 !important;
+}
+
+.footer .fotter_content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .fotter_content .navbrend {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.footer .fotter_content .navbrend span {
+  margin-left: 10px;
+  text-transform: capitalize;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer .fotter_content .fo_manu {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+}
+
+.footer .fotter_content .fo_manu .fo_manu_item {
+  margin: 20px 20px;
+}
+
+.footer .fotter_content .fo_manu .fo_manu_item .fo_link {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer .fotter_content .fo_social_link {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+}
+
+.footer .fotter_content .fo_social_link .fo_manu_item {
+  margin: 30px 20px;
+}
+
+.footer .fotter_content .fo_social_link .fo_manu_item .fo_link {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  color: #FFF;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.footer .fotter_content .fo_imp_links {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+.footer .fotter_content .fo_imp_links .fo_manu_item {
+  margin: 20px 30px;
+}
+
+.footer .fotter_content .fo_imp_links .fo_link {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer .fotter_content .copyright {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: capitalize;
+}
+
+
+/* ================ footer   css style  end  =====================*/
+/* ================ footer   css style  end   =====================*/
