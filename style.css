@@ -759,6 +759,11 @@ p {
 
 .butonns_area .buttons .bn_ar_item:hover {
   border: 1px solid #FF42A5;
+  transform: translate(0 , 0);
+  -webkit-transform: translate(0 , 0);
+  -moz-transform: translate(0 , 0);
+  -ms-transform: translate(0 , 0);
+  -o-transform: translate(0 , 0);
 }
 
 .butonns_area .buttons .bn_ar_item:hover a {
