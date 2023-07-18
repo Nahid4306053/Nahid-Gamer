@@ -10,6 +10,7 @@
 
 
 @media screen and (min-width: 600px) and (max-width: 992px) {
+
   .container {
     padding: 0px 30px;
     max-width: 1440px;
@@ -17,8 +18,8 @@
     margin: 0 auto;
     box-sizing: border-box;
   }
-/* ================header Responsive Tab css style  start  =====================*/
-/* ================header Responsive Tab css style  start  =====================*/
+/* ================header Responsive Tab css style  start  ====================*/
+/* ================header Responsive Tab css style  start  ====================*/
 
   .header .navbar {
     display: flex;
