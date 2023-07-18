@@ -30,7 +30,15 @@
     margin-top: 20px;
   }
 
+  .header .manus .manu_item .manu_link {
+    margin-left: 0px;
 
+  }
+  
+  .header .socials_links {
+    margin-left: 0px;
+  }
+  
   /* ================header Responsive Tab css style  end  =====================*/
 /* ================header Responsive Tab css style  end  =====================*/
 
