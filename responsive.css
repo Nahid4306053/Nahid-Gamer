@@ -38,7 +38,7 @@
 /* ================banner_container Responsive Tab css style  start  =====================*/
 /* ================banner_container Responsive Tab css style  start  =====================*/
 
-  .banner_content {
+  .banner_content {  
     display: grid;
     grid-template-columns: 1fr !important;
   }
@@ -275,10 +275,15 @@
     flex-direction: column;
   }
   .header .manu_container .manus {
-    flex-wrap: wrap;
-    margin: 15px 0px;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px 0px;
   }
+  .header .manus .manu_item {
+    margin: 10px 0px; 
 
+  }
+  
     /* ================header Responsive Android css style  end  =====================*/
 /* ================header Responsive Android css style  end  =====================*/
 
@@ -404,12 +409,17 @@
 
 
   .butonns_area {
-    margin: 100px 0px;
+    margin: 30px 0px;
   }
   .butonns_area .buttons {
     gap: 5px;
   }
+  .butonns_area .buttons .btn_item {
+    margin-top: 10px;
+
+  }
   .butonns_area .buttons .bn_ar_item {
+
     border: 1px solid #ff42a400;
     padding: 5px;
   }
@@ -433,8 +443,8 @@
 
   .footer {
     background: #0B0223;
-    margin-top: 100px;
-    padding: 100px 0px;
+    margin-top: 40px;
+    padding: 50px 0px;
   }
   .footer a {
     transition: all 0.5s ease-in-out;
@@ -464,6 +474,9 @@
   }
   .footer .fotter_content .fo_imp_links a {
     font-size: 14px !important; 
+  }
+  .footer .fotter_content .fo_social_link .fo_manu_item {
+    margin: 15px 20px; 
   }
 }
 

@@ -880,6 +880,7 @@ p {
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.6);
   text-transform: capitalize;
+  line-height: 40px;
 }
 
 
