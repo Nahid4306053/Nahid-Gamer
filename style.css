@@ -390,16 +390,23 @@ p {
 
 .games_container
  .game_card .game_img {
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  border: 5px solid rgba(255, 0, 0, 0);
+  box-sizing: border-box;
+  border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
   padding: 0;
   display: flex;
   align-items: center;
   overflow: hidden;
   position: relative;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
 }
 
 .games_container 
@@ -411,6 +418,8 @@ p {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
+
 
 .games_container .game_card
  .over_content {
@@ -484,6 +493,9 @@ p {
   opacity: 1;
   height: 100%;
   width: 100%;
+} .games_container .game_card 
+.game_img:hover  {
+  border: 5px solid #FF42A5;
 } 
 /* ================game_card   css style  end  =====================*/
 
