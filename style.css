@@ -392,7 +392,7 @@ p {
  .game_card .game_img {
   border-radius: 10px;
   -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
+  -moz-border-radius: 10px;   
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   padding: 0;
@@ -411,6 +411,8 @@ p {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
+
 
 .games_container .game_card
  .over_content {
