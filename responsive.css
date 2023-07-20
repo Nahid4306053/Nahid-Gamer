@@ -32,13 +32,11 @@
 
 
   .header .manus .manu_item .manu_link {
-    margin-left: 1px;
     margin-left: 0px;
 
   }
 
-  .header .socials_links {
-    margin-left: 1px; 
+  .header .socials_links { 
     margin-left: 0px; 
   }
   
